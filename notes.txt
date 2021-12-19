@@ -1,0 +1,13 @@
+first page: https://github.com/taimoorshahzada/Minimal-Landing-Page-Website-using-React.js-and-GSAP
+
+second image: 
+https://github.com/TheDesignMedium/planets-animated-website
+
+scroll magic
+https://github.com/Rajacharles/GSAP-Scroll-Magic-Animation
+
+Create 4 Awesome Text Effects in React.js using Three.js and GLSL | Blotter.js and react-text-fun
+https://github.com/taimoorshahzada/Top-4-Amazing-Text-Effects-in-React.js-using-Three.js-and-GLSL-Blotter.js-and-react-text-fun
+
+animated portoflio landing page 
+https://github.com/taimoorshahzada/Animated-Portfolio-Landing-Page-Website-using-React.js-and-GSAP/tree/master
