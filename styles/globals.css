@@ -1,19 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-    font-family: sans-serif;
-}
 *{ 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+:not(body) {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+body {
+  position: relative;
+  font-family: sans-serif;
+}
+body.is-hovered {
+  cursor: pointer;
+}
+html {
+  background: #000;
+  color: #fff;
+}
+body,
+html {
+  overflow-x: hidden; 
+   overflow-y: hidden;
+}
+body,
+html {
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+/* header */
+.header__width {
+  max-width: 130rem;
+}
+.head__main {
+  width: 100%;
+  position: fixed;
+}
+.head__main__col1 {
+  position: absolute;
+  left: 40px; 
+  top: 0;
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;  
+}
+
+/* end header */
+/* TODOS: HOW CAN WE DYNAMICALLY ADD CLASS TO BODY TAG */
+body.is-hovered {
+  cursor: pointer;
+}
+
 .center-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.bg-image {
+.bg__image {
+  
     background-image: url('/images/john-towner-JgOeRuGD_Y4-unsplash.jpg');
     width: 100%;
     height: 100vh;
@@ -75,3 +124,17 @@ body {
     }
   }
   
+  .splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+  .splide__slide {
+    opacity: 0.3;
+  }
+  
+  .splide__slide.is-active {
+    opacity: 1;
+  }
+  .splider__pagination__page {
+    color: #f1f1f1 !important; 
+  }
