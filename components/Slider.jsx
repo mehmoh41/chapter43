@@ -5,12 +5,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 
 // import Swiper core and required modules
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+// import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+import SwiperCore, { Autoplay, Pagination } from "swiper";
 // import SwiperCore, { Pagination, Navigation } from "swiper";
 
 // install Swiper modules
 // SwiperCore.use([Pagination, Navigation]);
-SwiperCore.use([Autoplay, Pagination, Navigation]);
+// SwiperCore.use([Autoplay, Pagination, Navigation]);
+SwiperCore.use([Autoplay, Pagination]);
 
 export default function App() {
   return (
@@ -25,7 +27,7 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        // navigation={true}
         className=""
       >
         <SwiperSlide>
