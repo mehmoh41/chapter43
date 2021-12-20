@@ -13,7 +13,6 @@ export default function Footer() {
           </svg>
         </a>
       </Link>
-      <span className='italic text-lg font-secondary'>Click to transform</span>
 
       <svg viewBox='0 0 24 24' className='text-white h-5 w-5' fill='currentColor'>
         <path d='M11 6H13V18H11V6Z' fill='currentColor' />

@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import React, { useState } from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Menu from '../components/menu'
 import { AppContext } from '../components/context'
 
 function MyApp({ Component, pageProps }) {
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
     }
   ]
   const [content, setContent] = useState(contents[0])
+  const [menu, setMenu] = useState(false)
 
   const changeContent = () => {
     let i = 0
@@ -28,10 +30,10 @@ function MyApp({ Component, pageProps }) {
   }
 
   return (
-    <AppContext.Provider value={{ content, changeContent }}>
+    <AppContext.Provider value={{ content, changeContent, menu, setMenu }}>
       <div className='bg-black text-white h-screen w-screen overflow-hidden relative '>
         <Header />
-        <Component {...pageProps} />
+        {menu ? <Menu /> : <Component {...pageProps} />}
         <Footer />
       </div>
     </AppContext.Provider>
