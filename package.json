@@ -15,7 +15,8 @@
     "react-icons": "^4.3.1",
     "react-loadable": "^5.5.0",
     "sass": "^1.45.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "swiper": "^7.3.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
