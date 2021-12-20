@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import Link from "next/link";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -45,7 +46,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -57,7 +60,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -69,7 +74,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -81,7 +88,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -93,7 +102,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -105,7 +116,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -117,7 +130,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -129,7 +144,9 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            <Link href="/work/details-page">
+                <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
+            </Link>
           </div>
         </SwiperSlide>
       </Swiper>

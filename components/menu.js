@@ -7,7 +7,7 @@ export default function Menu() {
       className='flex flex-col gap-8 items-center text-center h-screen w-screen justify-center bg-cover bg-opacity-25 bg-no-repeat bg-center'
       style={{ backgroundImage: `url(./assets/5.gif` }}
     >
-      <Link href='/home'>
+      <Link href='/work'>
         <a className='opacity-80 hover:opacity-100'>
           <h3 className='text-8xl font-bold'>WORK</h3>
           <p className='italic font-secondary opacity-80 text-xl'>
