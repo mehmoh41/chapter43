@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div id='header' className='absolute top-12 left-12 right-12 flex items-center justify-between'>
+    <div id='header' className='absolute top-12 left-12 right-12 flex items-center justify-between z-10'>
       <svg
         id='Logo-main'
         role='img'

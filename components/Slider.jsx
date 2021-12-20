@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper core and required modules
 // import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 import SwiperCore, { Autoplay, Pagination } from "swiper";
+import Header from "./header";
 // import SwiperCore, { Pagination, Navigation } from "swiper";
 
 // install Swiper modules
@@ -17,6 +18,7 @@ SwiperCore.use([Autoplay, Pagination]);
 export default function App() {
   return (
     <>
+        <Header />
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
