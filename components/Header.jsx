@@ -12,12 +12,24 @@ export default function Header() {
   //       backgroundImage: "url(" + { Background } + ")"
   //   }
   return (
-    <>
-      <div className="max-w-6xl mx-auto">
+    <section className="mx-auto">
+      <div className="w-full fixed">
+        <div className="absolute top-20 left-32">
+            <h2 className="absolute text-6xl font-extrabold tracking-wider">CH<span className="text-red-600">43</span></h2>
+        </div>
+        <div className="absolute top-16 right-24">
+            <Overlay />
+        </div>
+      </div>
+    </section>
+  );
+}
+{
+  /* <div className="header-width mx-auto">
         <div className="flex justify-between">
           <div className="my-8 mx-12">
             <Link href={'/'}>
-              <a className="text-black text-3xl font-extrabold">
+              <a className="text-white text-3xl font-extrabold">
                 CHAPTER <span className="text-red-500 ">43</span>
               </a>
             </Link>
@@ -26,7 +38,5 @@ export default function Header() {
             <Overlay />
           </div>
         </div>
-      </div>
-    </>
-  );
+      </div> */
 }
