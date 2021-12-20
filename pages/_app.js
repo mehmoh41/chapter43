@@ -1,16 +1,16 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import "../styles/globals.css";
 import "../styles/swiper.css"
-=======
+// =======
 import '../styles/globals.css'
 import React, { useState } from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import { AppContext } from '../components/context'
->>>>>>> 2fb4fcac0a3d63c48c84cc61f74f953e43f5376d
+// >>>>>>> 2fb4fcac0a3d63c48c84cc61f74f953e43f5376d
 
 function MyApp({ Component, pageProps }) {
   const contents = [
