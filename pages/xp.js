@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AppContext } from './context'
+import { AppContext } from '../components/context'
 
 export default function Xp() {
   const { content, changeContent } = useContext(AppContext)
