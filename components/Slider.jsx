@@ -46,7 +46,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -60,7 +60,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -74,7 +74,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -88,7 +88,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -102,7 +102,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -116,7 +116,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -130,7 +130,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>
@@ -144,7 +144,7 @@ export default function App() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Explicabo excepturi quia itaque nesciunt.
             </p>
-            <Link href="/work/details-page">
+            <Link href="/home/details-page">
                 <span className="inline-block text-gray-600 uppercase hover:text-white hover:underline transition duration-500 ease-in-out cursor-pointer mt-8">View Project</span>
             </Link>
           </div>

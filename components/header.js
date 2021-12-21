@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { useContext } from 'react'
 import { AppContext } from './context'
 
@@ -6,7 +7,9 @@ export default function Header() {
 
   return (
     <div id='header' className='absolute top-12 left-12 right-12 flex items-center justify-between z-10'>
+      <Link href='/'>
       <svg
+      className="cursor-pointer"
         id='Logo-main'
         role='img'
         aria-label='HKI.PARIS Logo'
@@ -27,6 +30,7 @@ export default function Header() {
           d='M44.1 1.1H32.4L15.1 19.7v12.5l29-31.1zm1 10.4v20.7h9.7V1.1l-9.7 10.4zM31 1.1H19.3L2 19.7v12.5z'
         ></path>
       </svg>
+      </Link>
       <span className='cursor-pointer text-xs font-bold group' onClick={() => setMenu(!menu)}>
         {menu ? 'X' : 'MENU'}
       </span>
