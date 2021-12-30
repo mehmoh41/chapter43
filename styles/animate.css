@@ -1,0 +1,62 @@
+/*  home page */
+.Homepage__container,
+.Portfolio__container,
+.Contact__container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Homepage__container {
+  height: 100vh;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.Homepage__title {
+  animation: bounceInDown 1s linear;
+}
+
+.Portfolio__container {
+  height: 100vh;
+  background: rgb(221, 220, 220);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Contact__container {
+  background: rgb(236, 236, 236);
+}
+
+.Portfolio__row {
+  height: 33.333%;
+  display: flex;
+  width: 60%;
+  padding: 2%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.animated {
+  flex-basis: 600px;
+  flex-shrink: 1;
+}
+
+.row__2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 100%;
+  background: rgb(233, 233, 233);
+  border-radius: 3px;
+  box-shadow: 2px 1px 2px lightgray;
+}
+
+.box2 {
+  background: rgb(233, 233, 233);
+}

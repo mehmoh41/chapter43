@@ -1,0 +1,46 @@
+#about {
+	height:150vh;
+	&:nth-of-type(odd){background:#D90368;}
+	&:nth-of-type(even){background:#541388;}
+}
+#menu-toggle {
+    position: fixed;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3rem;
+    border: none;
+    background: none;
+    width: 50vw;
+    max-width: 230px;
+    z-index: 100;
+    padding: 0;
+    cursor: pointer;
+    overflow: visible;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        -webkit-transform-style: preserve-3d;
+
+        .mainline {
+            stroke: #FFD400;
+            transition: stroke 120ms ease-in;
+        }
+
+        .icon-path {
+            stroke: #2E294E;
+            transition: stroke 120ms ease-in;
+        }
+    }
+
+    &:hover {
+        .mainline {
+            stroke: #2E294E;
+        }
+        .icon-path {
+            stroke: #FFD400;
+        }
+    }
+}

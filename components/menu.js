@@ -1,12 +1,17 @@
 import Link from 'next/link'
+import { useEffect } from 'react'
+
+
 
 export default function Menu() {
+  
   return (
     <div
       id='menu'
       className='flex flex-col gap-8 items-center text-center h-screen w-screen justify-center bg-cover bg-opacity-25 bg-no-repeat bg-center'
       style={{ backgroundImage: `url(./assets/5.gif` }}
     >
+      <canvas class="fireworks"></canvas>
       <Link href='/home'>
         <a className='opacity-80 hover:opacity-100'>
           <h3 className='text-8xl font-bold bg__img'>WORK</h3>
